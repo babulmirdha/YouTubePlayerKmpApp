@@ -25,18 +25,24 @@ fun YoutubePlayerScreen() {
     ) {
         Text("YouTube Player", style = MaterialTheme.typography.h4)
         Spacer(Modifier.height(16.dp))
+        
         Box(modifier = Modifier.fillMaxWidth().aspectRatio(16f / 9f)) {
 //            YouTubePlayer(videoId = "MlQaPCZh_Mg") // Change videoId as needed
             KYoutube("MlQaPCZh_Mg")
         }
+
+        Spacer(Modifier.height(16.dp))
+
+        Box(
+            modifier = Modifier.fillMaxWidth()
+                .fillMaxHeight(.5f).clip(RoundedCornerShape(15.dp))
+        ) {
+            KYoutube("MlQaPCZh_Mx")
+        }
+
+
     }
 
 
-//    Box(
-//        modifier = Modifier.fillMaxWidth()
-//            .fillMaxHeight(.5f).clip(RoundedCornerShape(15.dp))
-//    ) {
-//        KYoutube("MlQaPCZh_Mg")
-//    }
 
 }

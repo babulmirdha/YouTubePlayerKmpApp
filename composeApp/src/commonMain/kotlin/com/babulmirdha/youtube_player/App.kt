@@ -20,8 +20,10 @@ import youtubeplayerkmpapp.composeapp.generated.resources.compose_multiplatform
 @Preview
 fun App() {
     MaterialTheme {
-//        YouTubePlayer(videoId = "MlQaPCZh_Mg") // Replace with your video ID
 
-        YoutubePlayerScreen()
+        val videoIds = listOf("MlQaPCZh_Mg", "IiRKzFqHz6o", "yxqRPgl_uZI", "ORfwh-EBKVw","AzMimnWC4rA","sMwKrxZKUSc")
+        YouTubePlayerList(videoIds)
+
+        YouTubePlayerList(videoIds)
     }
 }
