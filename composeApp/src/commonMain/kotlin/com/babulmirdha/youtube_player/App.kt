@@ -21,9 +21,36 @@ import youtubeplayerkmpapp.composeapp.generated.resources.compose_multiplatform
 fun App() {
     MaterialTheme {
 
-        val videoIds = listOf("MlQaPCZh_Mg", "IiRKzFqHz6o", "yxqRPgl_uZI", "ORfwh-EBKVw","AzMimnWC4rA","sMwKrxZKUSc")
-        YouTubePlayerList(videoIds)
-
+        val videoIds = listOf(
+            "BKoTLf_D4xo",
+            "VUU56K2UB4E",
+            "dJPw1XmKA7Q",
+            "Mf2bHdpX4-s",
+            "qQyMRL7PhiY",
+            "0n8vfuwCeyc",
+            "A7fZp9dwELo",
+            "NWkSRKj2JSI",
+            "vszkR6Dg9Lc",
+            "JUtes-k-VX4",
+            "qO3v3F31Vow",
+            "Tv4pkivGvdU",
+            "Jds2CU0_N_k",
+            "bw1piBAOG9s",
+            "X_hr0BNvDwM",
+            "j5l5nfvP6Dg",
+            "KxlUFKPCxeg",
+            "WMYV9aekK4A",
+            "rA88gvRoVfg",
+            "5mvy3wCfDvo",
+            "TLFG1_jFQ_Y",
+            "W78Xg_pnJ1A",
+            "IvvUbh-cnX4",
+            "AOz1YPOKvEs",
+            "RJoltAGkDFU",
+            "Iy7EKhwKjPQ",
+            "PJ9_v4ulvd4",
+            "Abi8kwkfZbA"
+        )
         YouTubePlayerList(videoIds)
     }
 }
